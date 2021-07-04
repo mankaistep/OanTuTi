@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OanTuTi:jar">
+    <output-path>$PROJECT_DIR$/../../../../Minecraft/Server/1.16 Test/plugins</output-path>
+    <root id="archive" name="OanTuTi.jar">
+      <element id="module-output" name="OanTuTi" />
+    </root>
+  </artifact>
+</component>

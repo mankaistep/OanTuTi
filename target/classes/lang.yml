@@ -1,0 +1,4 @@
+invite-target: '&aFrom %challenger% with love'
+invite-challenger: '&aSent to %target%'
+
+asset-notenough: '&cTài sản của bạn hoặc đối phương không đủ'

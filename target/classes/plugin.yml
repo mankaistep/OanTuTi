@@ -1,0 +1,9 @@
+name: OanTuTi
+version: 1.0
+main: mk.plugin.ott.main.MainOTT
+softdepend: [PlaceholderAPI]
+depend: [Vault, PlayerPoints]
+api-version: 1.13
+commands:
+    ott:
+        decscription: Ok

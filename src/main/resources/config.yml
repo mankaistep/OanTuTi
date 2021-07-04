@@ -1,0 +1,77 @@
+option:
+  # Số lượt mỗi ván
+  money-times: 3
+  point-times: 3
+  item-times: 5
+  # Thời gian để lời mời hết hạn (giây)
+  invitation-expired: 30
+  # Thời gian chọn Kéo, búa, bao
+  select-time: 10
+  # Thời gian chọn 5 item
+  item-select-time: 20 
+  # Số lượng lấy ngẫu nhiên từ item cá cược
+  random-item: 1
+  # ott-info: Ô để thông tin thắng thua trong chỗ chọn ott
+  ott-info-slot: 7
+icon-gui:
+  select-bua:
+    name: '&c&lBúa'
+    type: IRON_AXE
+    data: 0
+    lore: []
+    enchant: []
+    flag: []
+  select-keo:
+    name: '&c&lKéo'
+    type: SHEARS
+    data: 0
+    lore: []
+    enchant: []
+    flag: []
+  select-bao:
+    name: '&a&lBao'
+    type: PAPER
+    data: 0
+    lore: []
+    enchant: []
+    flag: []
+  icon-item:
+    name: '&aÔ này để item nè'
+    type: DIAMOND_SWORD
+    data: 0
+    lore: []
+    enchant: []
+    flag:
+    - HIDE_ENCHANTS
+  icon-money:
+    name: '&a&lCá cược bằng money ($)'
+    type: PAPER
+    data: 0
+    lore: []
+    enchant: []
+    flag:
+    - HIDE_ENCHANTS
+  icon-point:
+    name: '&a&lCá cược bằng point (P)'
+    type: GOLD_BLOCK
+    data: 0
+    lore: []
+    enchant: []
+    flag:
+    - HIDE_ENCHANTS
+  icon-tutorial:
+    name: '&aHUOWNg DANNN'
+    type: BOOK
+    data: 0
+    lore: []
+    enchant: []
+    flag:
+    - HIDE_ENCHANTS
+  icon-head:
+    name: '&aHUOWNg DANNN %player_name%' #PlaceholderAPI
+    type: BOOK
+    data: 0
+    lore: []
+    enchant: []
+    flag:
+    - HIDE_ENCHANTS
