@@ -59,6 +59,10 @@ public class Commands implements CommandExecutor {
 		
 		else if (args[0].equalsIgnoreCase("dongy")) {
 			try {
+				if (!InvitationUtils.hasInvitation(player.getUniqueId())) {
+					player.sendMessage("§cKhông có lời mời");
+					return false;
+				}
 				if (InvitationUtils.getInvitation(player.getUniqueId()).getChallenger().equals(player.getUniqueId())) {
 					player.sendMessage(Lang.INVITE_AGREE_YOURSELF.get());
 					return false;
@@ -74,6 +78,10 @@ public class Commands implements CommandExecutor {
 		
 		else if (args[0].equalsIgnoreCase("tuchoi")) {
 			try {
+				if (!InvitationUtils.hasInvitation(player.getUniqueId())) {
+					player.sendMessage("§cKhông có lời mời");
+					return false;
+				}
 				InvitationUtils.refuse(player.getUniqueId());
 			}
 			catch (ArrayIndexOutOfBoundsException e) {
